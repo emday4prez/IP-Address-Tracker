@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import "@fontsource/rubik"
 import Header from "./components/Header";
 import axios from 'axios'
@@ -12,6 +12,7 @@ import Map from './components/Map'
 const  App = () => {
  
   const [text, setText] = useState('');
+  const [map, setMap] = useState(null)
   const [ip, setIp] = useState({
   ip: "8.8.8.8",
   location: {
@@ -29,17 +30,14 @@ const  App = () => {
 
 
 
-// useEffect(() => {
+useEffect(() => {
 
-// const handleFlyTo = () => {
-// const {current = {} } = mapRef;
-// const {leafletElement: map} = current;
-// map.flyTo([ip.location.lat, ip.location.lng],14,{
-//   duration:3
-// })
-// }
-// handleFlyTo()
-// },[ip])
+const handleSetView = () => {
+;
+map?.setView([ip.location.lat, ip.location.lng],9)
+}
+handleSetView()
+},[ip, map])
 
 
 const fetchIpInfo = async (e) => {
@@ -66,7 +64,7 @@ const fetchIpInfo = async (e) => {
     <Container>
       <Header text={text} setText={setText} fetchIpInfo={fetchIpInfo} ip={ip} setIp={setIp}  />
         <Body ip={ip}/>
-        <Map lat={ip.location.lat} lng={ip.location.lng} />
+        <Map lat={ip.location.lat} lng={ip.location.lng} map={map} setMap={setMap}/>
     </Container>
   );
 
