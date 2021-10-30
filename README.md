@@ -1,10 +1,10 @@
-# Frontend Mentor - Time tracking dashboard solution
+# Frontend Mentor - IP Address Tracker solution
 
 This is a solution to the [IP Address Tracker Challenge](https://www.frontendmentor.io/challenges/). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -13,9 +13,9 @@ This is a solution to the [IP Address Tracker Challenge](https://www.frontendmen
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
+ 
 
 ## Overview
 
@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](src/images/ScreenShot.png./screenshot.jpg)
+![](`src/images/ScreenShot.png)
 
 
 

@@ -55,7 +55,7 @@ const SearchButton = styled.button`
   }
 `
 
-const Search = ({text, setText, ip, setIp, fetchIpInfo}) => {
+const Search = ({text, setText, fetchIpInfo}) => {
 
 
 const onChange = (event) => {

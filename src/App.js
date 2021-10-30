@@ -7,7 +7,7 @@ import styled from '@emotion/styled'
 import Map from './components/Map'
 
 
-
+const {REACT_APP_IP_KEY} = process.env
 
 const  App = () => {
  
@@ -27,13 +27,8 @@ const  App = () => {
   isp: "Google LLC"
 })
 
-
-
-
 useEffect(() => {
-
 const handleSetView = () => {
-;
 map?.setView([ip.location.lat, ip.location.lng],9)
 }
 handleSetView()
@@ -43,22 +38,13 @@ handleSetView()
 const fetchIpInfo = async (e) => {
       e.preventDefault();
     try{
-      
-      
-      const response = await axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=at_CItcF4xV81uiAgyXnT0SqLwJLNXNA&ipAddress=${text}`);
+      const response = await axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=${REACT_APP_IP_KEY}&ipAddress=${text}`);
       setIp(response.data);
-      console.log(response.data)
-     
     }catch(error){
       console.log(error)
     }
  
   }
-
-
-
-
-
 
   return (
     <Container>
