@@ -42,6 +42,7 @@ const fetchIpInfo = async (e) => {
       setIp(response.data);
     }catch(error){
       console.log(error)
+      alert(`REMOVE AD-BLOCKER ${error}`)
     }
  
   }

@@ -30,14 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](`src/images/ScreenShot.png)
+![(`src/images/ScreenShot.png)]
 
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [github pages](https://emday4prez.github.io/ip-address-tracker/)
 
 ## My process
 
