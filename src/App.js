@@ -13,7 +13,7 @@ const override = css`
   display: block;
   margin: 0 auto;
   border-color: blue;
-  margin-top: 100px;
+  margin-top: 300px;
   color:blue;
 `;
 
