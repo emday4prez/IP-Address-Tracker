@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ip-address-tracker/static/css/main.686b744e.chunk.css",
-    "main.js": "/ip-address-tracker/static/js/main.8d273014.chunk.js",
-    "main.js.map": "/ip-address-tracker/static/js/main.8d273014.chunk.js.map",
+    "main.js": "/ip-address-tracker/static/js/main.f998d512.chunk.js",
+    "main.js.map": "/ip-address-tracker/static/js/main.f998d512.chunk.js.map",
     "runtime-main.js": "/ip-address-tracker/static/js/runtime-main.17bf10e4.js",
     "runtime-main.js.map": "/ip-address-tracker/static/js/runtime-main.17bf10e4.js.map",
     "static/css/2.44bb4517.chunk.css": "/ip-address-tracker/static/css/2.44bb4517.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.44bb4517.chunk.css",
     "static/js/2.9b50b47b.chunk.js",
     "static/css/main.686b744e.chunk.css",
-    "static/js/main.8d273014.chunk.js"
+    "static/js/main.f998d512.chunk.js"
   ]
 }
