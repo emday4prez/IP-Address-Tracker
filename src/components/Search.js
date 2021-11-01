@@ -58,6 +58,7 @@ const SearchButton = styled.button`
 const Search = ({text, setText, fetchIpInfo}) => {
 
 
+
 const onChange = (event) => {
     setText(event.target.value);
   };
@@ -66,7 +67,7 @@ const onChange = (event) => {
  return (
   <SearchContainer>
     <SearchBox type="text"  placeholder="Enter an IP Address"  value={text} onChange={onChange} />
-    <SearchButton type="submit" onClick={fetchIpInfo}>
+    <SearchButton type="submit" onClick={fetchIpInfo} >
        <img src={arrow} alt='arrow'/> 
     </SearchButton>
     

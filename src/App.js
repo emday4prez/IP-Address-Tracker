@@ -5,12 +5,24 @@ import axios from 'axios'
 import Body from './components/Body';
 import styled from '@emotion/styled'
 import Map from './components/Map'
+import { css } from "@emotion/react";
+import PuffLoader from "react-spinners/PuffLoader";
+
+
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: blue;
+  margin-top: 100px;
+  color:blue;
+`;
+
 
 
 const {REACT_APP_IP_KEY} = process.env
 
 const  App = () => {
- 
+  const [loading, setLoading] = useState(false)
   const [text, setText] = useState('');
   const [map, setMap] = useState(null)
   const [ip, setIp] = useState({
@@ -37,12 +49,17 @@ handleSetView()
 
 const fetchIpInfo = async (e) => {
       e.preventDefault();
+      setLoading(true)
     try{
       const response = await axios.get(`https://geo.ipify.org/api/v2/country,city?apiKey=${REACT_APP_IP_KEY}&ipAddress=${text}`);
+      
       setIp(response.data);
+      setLoading(false)
+
     }catch(error){
+      alert(`PLEASE DISABLE AD-BLOCKER ${error}`)
       console.log(error)
-      alert(`REMOVE AD-BLOCKER ${error}`)
+      
     }
  
   }
@@ -51,7 +68,8 @@ const fetchIpInfo = async (e) => {
     <Container>
       <Header text={text} setText={setText} fetchIpInfo={fetchIpInfo} ip={ip} setIp={setIp}  />
         <Body ip={ip}/>
-        <Map lat={ip.location.lat} lng={ip.location.lng} map={map} setMap={setMap}/>
+        {loading ? <PuffLoader color="#6495ED" loading={loading} css={override} size={150} /> : <Map lat={ip.location.lat} lng={ip.location.lng} map={map} setMap={setMap}/>}
+        
     </Container>
   );
 

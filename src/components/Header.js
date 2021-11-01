@@ -40,12 +40,12 @@ const H1 = styled.h1`
 }
 `
 
-const Header = ({text, setText, fetchIpInfo}) => {
+const Header = ({text, setText, fetchIpInfo, loading, setLoading}) => {
  return (
   <>
    <Head>
     <H1 >IP Address Tracker</H1>
-    <Search text={text} setText={setText} fetchIpInfo={fetchIpInfo}/>
+    <Search text={text} setText={setText} fetchIpInfo={fetchIpInfo} loading={loading} setLoading={setLoading}/>
    </Head>
   </>
  )
