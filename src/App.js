@@ -57,8 +57,17 @@ const fetchIpInfo = async (e) => {
       setLoading(false)
 
     }catch(error){
-      alert(`PLEASE DISABLE AD-BLOCKER ${error}`)
-      console.log(error)
+      console.error(error.message)
+      setLoading(false)
+      if (error.message === "Network Error"){
+        alert(`MAKE SURE TO DISABLE AD BLOCKER ${error}`)
+      }else if (error.message === "Request failed with status code 422"){
+        alert(`ENTER A VALID IP ADDRESS`)
+      }else{
+        alert(`UNKNOWN ERROR ${error.message}`)
+      }
+      
+     
       
     }
  
