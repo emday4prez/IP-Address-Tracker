@@ -36,7 +36,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [github pages](https://emday4prez.github.io/ip-address-tracker/)
 
 ## My process
@@ -86,3 +85,4 @@ I would like to earn more experience working with APIs and state in React.
 
 ## Acknowledgments
 
+Thank you to the React-Leaflet team for anwsering my questions. 
