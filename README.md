@@ -64,7 +64,7 @@ I learned a ton about maps and react-leaflet.
 
 ### Continued development
 
-I would like to earn more experience working with APIs and state in React.
+I would like to earn more experience working with APIs and state management in React.
 
 ### Useful resources
 
@@ -73,7 +73,6 @@ I would like to earn more experience working with APIs and state in React.
 
 ## Author
 
-- Website - [Emerson Day](https://portfolio-emday4prez.vercel.app/)
 - Frontend Mentor - [@emday4prez](https://www.frontendmentor.io/profile/emday4prez)
 - Twitter - [@emers0n](https://www.twitter.com/emers0n)
 
