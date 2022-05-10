@@ -19,8 +19,9 @@ This is a solution to the [IP Address Tracker Challenge](https://www.frontendmen
 ## Overview
 
 ### The challenge
+I created this website without following a specific tutorial. I was given a design from Frontend-Mentor and implemented the functionality on my own.
 
-Users should be able to:
+Frontend Mentor requirements:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -36,9 +37,9 @@ Users should be able to:
 
 ### Built with
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Leaflet] (https://react-leaflet.js.org/) 
-- [Styled Components](https://styled-components.com/) - For styles
+- [React](https://reactjs.org/) - JavaScript library
+- [Leaflet](https://react-leaflet.js.org/) 
+- [Styled Components](https://styled-components.com/)
 
 
 
@@ -73,7 +74,7 @@ I would like to earn more experience working with APIs and state in React.
 
 - Website - [Emerson Day](https://portfolio-emday4prez.vercel.app/)
 - Frontend Mentor - [@emday4prez](https://www.frontendmentor.io/profile/emday4prez)
-- Twitter - [@emers0n](https://www.twitter.com/emers0n
+- Twitter - [@emers0n](https://www.twitter.com/emers0n)
 
 
 
