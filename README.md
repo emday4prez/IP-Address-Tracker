@@ -23,9 +23,9 @@ I created this website without following a specific tutorial. I was given a desi
 
 Frontend Mentor requirements:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See information about IP addresses entered
+- View the optimal layout for the site depending on their device's screen size.
+- See hover states for all interactive elements on the page.
+- See information about IP addresses entered.
 - See location of server on a map.
 
 
