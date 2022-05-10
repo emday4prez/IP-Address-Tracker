@@ -19,7 +19,8 @@ This is a solution to the [IP Address Tracker Challenge](https://www.frontendmen
 ## Overview
 
 ### The challenge
-I created this website without following a specific tutorial. I was given a design from Frontend-Mentor and implemented the functionality on my own.
+I created this website without following a specific tutorial. 
+I was given a design from Frontend-Mentor and implemented the functionality on my own using React and Node.
 
 Frontend Mentor requirements:
 
@@ -38,9 +39,9 @@ Frontend Mentor requirements:
 ### Built with
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JavaScript library
-- [Leaflet](https://react-leaflet.js.org/) 
-- [Styled Components](https://styled-components.com/)
-
+- [Leaflet](https://react-leaflet.js.org/) - Maps
+- [Styled Components](https://styled-components.com/) - Styles
+- [Axios](https://www.npmjs.com/package/axios) - HTTP
 
 
 ### What I learned
