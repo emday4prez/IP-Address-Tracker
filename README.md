@@ -6,7 +6,6 @@ This is a solution to the [IP Address Tracker Challenge](https://www.frontendmen
 
   - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [My process](#my-process)
   - [Built with](#built-with)
@@ -27,11 +26,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - See information about IP addresses entered
 - See location of server on a map.
-
-### Screenshot
-
-![(`src/images/ScreenShot.png)]
-
 
 
 ### Links
