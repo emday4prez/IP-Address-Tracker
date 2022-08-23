@@ -80,4 +80,4 @@ I would like to earn more experience working with APIs and state management in R
 
 ## Acknowledgments
 
-Thank you to the React-Leaflet team for anwsering my questions. 
+Thank you to the React-Leaflet team for answering my questions. 
